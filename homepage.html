@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <i class="fa fa-home" aria-hidden="true"></i>
+    <style>
+    nav{
+        background-color: blue;
+        color: blue;
+        font-size: 25px;
+        text-align: left;
+        word-spacing: 7rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home{
+        font-size:20px ;
+        
+        
+    }
+        
+    
+    </style>
+    <nav class="navbar">
+        <ul>
+            <i class="fa-fa-home" aria-hidden="true"></i><a class="menu-list-item" href="home"></a>
+        <a class="menu-list-items" id="Homenav">Home</a>
+        <a class="menu-list-link" id="Aboutnav">About</a>
+        <a class="menu-list-item" id="Educationnav">Education</a>
+        <a  class="menu-list-item" id="Contactnav">Contact</a>
+      </ul>
+    </nav>
+    <div id="Home">
+    <h3>MITCHELLE JEAN</h3>
+    <img src="jean jean.jpg" alt="">
+    </div>
+
+    <!--About-->
+    <div id="About" class="about">
+    <p>Place of birth:</strong>Bomet county</p>
+    <p>Age:</strong>18</p>
+    <p>Sibling:</strong>3</p>
+     </div>
+
+    <!--education-->
+    <div id="Education">
+    <h4>2008-2010</h4>
+    <p>Went to Ganjoni school</p>
+
+    <h4>2010-2019</h4>
+    <p>Went to light schools</p>
+
+    <h4>2020-2023</h4>
+    <p>Went to st clare school</p>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+    <h5>Can reach me through</h5>
+    <p>Phone number:0794553655</p>
+    <p>Email:chebetmitchellejean@gmail.com</p>
+    </div>
+
+    <script>
+$(document).ready(function(){
+            $("#homenav").click(function(){
+                $("#Home").show()
+                $("#hidden").show()
+            })
+        })
+    </script>
+
+</body>
+</html>
